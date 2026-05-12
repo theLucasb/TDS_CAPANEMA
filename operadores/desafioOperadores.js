@@ -13,8 +13,18 @@ let a = 10;
 let b = 20;
 
 // Valores TRUE
-
+console.log("Valores TRUE: ");
+console.log(a < b);
+console.log(a != b);
+console.log(a <= b);
+console.log(b >= a);
+console.log(b != a);
 
 // Valores FALSE
-
+console.log("Valores FALSE: ");
+console.log(a > b);
+console.log(a == b);
+console.log(a >= b);
+console.log(b <= a);
+console.log(b == a);
 
